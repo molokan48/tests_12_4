@@ -1,0 +1,10 @@
+ 2024-12-12 19:05:41,227 | DEBUG | AAAAAAAAAAAAAAAA
+ 2024-12-12 19:05:41,234 | ERROR | Неверная скорость для Runner
+Traceback (most recent call last):
+  File "C:\Users\tech\PycharmProjects\module_12_log\tests_12_4.py", line 23, in test_run
+    tester = Runner("30", -5) # отрицательная скорость
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\tech\PycharmProjects\module_12_log\for_log_12_4.py", line 12, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -5
+ 2024-12-12 19:05:41,239 | INFO | "test_walk" выполнен успешно
